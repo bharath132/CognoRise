@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.countdown {
+    margin-bottom: 20px;
+}
+
+.time {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.set-time {
+    margin-top: 20px;
+}
+
+input[type="datetime-local"] {
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
