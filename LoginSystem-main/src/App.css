@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.login_page{
+  background-color: rgb(251, 5, 5);
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.login_container {
+  text-align: center;
+  width: 25%;
+  /* height: 200px; */
+  background-color: white;
+  padding: 40px 10px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+  box-shadow: -3px -3px 2px rgba(241, 237, 237, 0.981),
+              5px 5px 5px rgba(0,0,0,0.2),
+              15px 15px 15px rgba(0,0,0,0.2);
+}
+
+.login_container h1{
+  color: rgb(255, 0, 0);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  /* text-align: end; */
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+  padding: 20px 0;
+}
+form input {
+  width: 80%;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  border: solid rgb(147, 125, 125);
+  outline: none;
+  text-indent: 10px;
+  transition: all .3s ease-in-out;
+}
+form input:focus{
+  border: solid rgb(255, 0, 0);
+  transition: all .5s;
+}
+form input:hover{
+  transition: all .5s;
+  border: solid rgb(255, 0, 0);
+  /* transition: all .5s; */
+}
+form input:active{
+  transition: all .5s;
+  border: solid rgb(225, 38, 13);
+}
+form button {
+  padding: 10px 20px;
+  border: solid white;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 700;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: .3s;
+}
+form button:hover{
+  background-color: rgb(227, 67, 18);
+}
+.forget {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 45px 30px 0;
+}
+p{
+  /* font-size: 10px; */
+  font-weight: 100px;
+}
+a{
+  color: rgb(240, 11, 11);
+  text-decoration: none;
+  font-weight:450;
+  transition: .3s;
+}
+a:hover{
+  color: rgb(218, 94, 31);
+  font-weight: 450;
+}
+p span{
+  font-family: 700;
+  font-size: large;
+}
+
+
+form p{
+  color: rgb(255, 0, 0);
+  margin: -10px 0 5px  0 ;
+}
